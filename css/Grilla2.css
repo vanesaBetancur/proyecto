@@ -1,0 +1,63 @@
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+.Row{
+    display: flex;
+}
+.col-1{
+    width: 8.333333%;
+}
+.col-2{
+    width: 16.666666%;
+}
+.col-3{
+    width: 24.999999%;
+}
+.col-4{
+    width: 33.333332%;
+}
+.col-5{
+    width: 41.666665%;
+}
+.col-6{
+    width: 49.999998%;
+}
+.col-7{
+    width: 58.333331%;
+}
+.col-8{
+    width: 66.666664%;
+}
+.col-9{
+    width: 74.999997%;
+}
+.col-10{
+    width: 83.333333%;
+}
+.col-11{
+    width: 91.999999%;
+}
+.col-12{
+    width: 100%;
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    padding: 10px;/*con este padding se le da el espacio para que pegue el texto*/
+}
+.col-1,.img-2,.img-3,.img-4,.img-5,.img-6,.img-7,.img-8,.img-9,.img-10,.img-11,.img-12{
+    width: 100%;
+}
+@media(max-width: 600px){
+    .container{
+        padding: 10px;
+    }
+    .Row{
+        display: inline;
+        padding: 10px,
+    }
+    .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+        width:100%;
+        padding: 0px;
+    }
+
+}

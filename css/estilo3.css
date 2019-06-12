@@ -1,0 +1,31 @@
+html,body{
+    padding: 0px;/*alinea el texto que se encuentra en body al borde izqierdo de la pantalla*/
+    margin: 0px;/*elimina la margen del contenido*/
+    font-size: 20px;
+    font-family:arial narrow;
+}
+nav{
+    display:flex;/*pasa los elementos de vertical a horizontal*/
+    background-color: green;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+nav li{
+    padding-left: 20px;
+    list-style: none;
+
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+/*---------Main Section*/
+.main_Section{
+    padding: 20%;
+    text-align: center;
+    
+}

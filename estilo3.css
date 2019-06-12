@@ -1,0 +1,147 @@
+html,body{
+    padding: 0px;/*alinea el texto que se encuentra en body al borde izqierdo de la pantalla*/
+    margin: 0px;/*elimina la margen del contenido*/
+    font-size: 20px;
+    font-family:arial Narrow;
+}
+nav{
+    display:flex;/*pasa los elementos de vertical a horizontal*/
+    background-color: green;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+nav li{
+    padding-left: 50px;
+    list-style: none;
+
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+/*---------Main Section*/
+.main_Section{
+    padding: 20%;
+    text-align: center;
+}
+.products{
+    background-image: url("imagenes/images/animales.jpg");
+    height: 100px;
+    background-size:cover;
+    background-position: center top;
+    padding: 20%;
+   display: flex;
+}
+.product{
+    padding:50px;
+    margin-top: -400px;/*da alineacion a los objetos del main*/
+}
+.product .content{
+    background-color:rgb(248, 242, 242);
+    padding: 20px;
+    box-shadow: 0 0 2px black;
+}
+.main_btn{
+    padding:17px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 2px;
+    cursor: pointer;
+    color:red;
+}
+.main_btn:hover{
+   background-color:grey;
+}
+.img_p{
+    text-align: center;
+}
+/*inicio beneficios---*/
+.beneficios{
+    padding: 10%;
+    display: flex;
+}
+.beneficio{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 3px black;
+}
+.beneficio{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 3px black;
+}
+.beneficio{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 3px black;
+}
+/*inicio recomendaciones---*/
+.recomendaciones{
+   padding:10%;
+    display: flex;
+}
+.recomendacion{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 3px black;
+
+}
+.recomendacion{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 3px black;
+}
+.recomendacion{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 3px black;
+}
+footer{
+    display:flex;/*pasa los elementos de vertical a horizontal*/
+    background-color: green;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display:flex;
+}
+footer li{
+    padding-left: 1000px;
+    list-style: none;
+}
+footer li a{
+    color:black;
+    text-decoration: none;
+}
+/*----------Venta-------*/
+
+.modulo_pago{
+
+    background-color: white;
+    box-shadow: 0 0 2px black;
+    padding: 10px;
+}
+.modulo_pago_imagenes{
+    max-width: 150px;
+    text-align: center;
+    margin: auto;
+}
+.data{
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    box-sizing: border-box;/*hace que los elementos respeten el marci*/
+}
+label{
+    font-size: 20px;/*tamaño de fuente de los label*/
+}
+.modulo_pago .main_btn{
+    margin-top: 10px;
+    width: 100%;
+}
